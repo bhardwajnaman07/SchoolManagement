@@ -133,7 +133,7 @@ def afterlogin_view(request):
 
 
 
-#for dashboard of adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+#for dashboard of adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 @login_required(login_url='adminlogin')
 @user_passes_test(is_admin)
